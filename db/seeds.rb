@@ -19,7 +19,7 @@ Student.destroy_all
 
  @user1 = User.create!(username: "guess01325", name: "Otis Guess", email: "guess01325@gmail.com", password: "Gu145012")
 
- @user2 = User.create!(username: "sasha20", name: "Saschia Johnson", email: "saschia.johsnon@gmail.com", password: "Iyamxcite2024")
+ @user2 = User.create!(username: "sasha20", name: "Saschia Johnson", email: "saschia.johsnon@gmail.com", password: "Iyamxcited2024")
 
  @event1 = Event.create!(name:"Robocop", place: "library", date: "10/81/1986", time: "5:00pm", user: @user1 )
 
